@@ -1,0 +1,98 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "21e5c124b19d73c531ab",
+  "publicPath": "/static/",
+  "outputPath": "/Users/josephine/Desktop/frontity-project/frontity-project/build/static",
+  "assetsByChunkName": {
+    "frontity-project": [
+      "frontity-project.module.js",
+      "frontity-project.526f26318f10d852ce2c.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "526f26318f10d852ce2c.hot-update.json",
+      "size": 58,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-project.526f26318f10d852ce2c.hot-update.js",
+      "size": 92521,
+      "chunks": [
+        "frontity-project"
+      ],
+      "chunkNames": [
+        "frontity-project"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-project.module.js",
+      "size": 5466939,
+      "chunks": [
+        "frontity-project"
+      ],
+      "chunkNames": [
+        "frontity-project"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/kabullight.jpg",
+      "size": 773383,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false,
+      "isOverSizeLimit": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-project": {
+      "chunks": [
+        "frontity-project"
+      ],
+      "assets": [
+        "frontity-project.module.js",
+        "frontity-project.526f26318f10d852ce2c.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-project": {
+      "chunks": [
+        "frontity-project"
+      ],
+      "assets": [
+        "frontity-project.module.js",
+        "frontity-project.526f26318f10d852ce2c.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
