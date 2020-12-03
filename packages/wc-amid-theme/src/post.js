@@ -32,12 +32,18 @@ const Post = ({ state }) => {
 export default connect(Post);
 
 const Container = styled.div`
+margin: 0;
+padding: 24px;
+width: 90%;
+@media(min-width: 668px) {
+  width: 90%;
+}
+@media(min-width: 1024px){
   width: 800px;
-  margin: 0;
-  padding: 24px;
-  background: rgb(249,253,254);
-  background: linear-gradient(0deg, rgba(210,210,210,1)) 0%, rgba(249,253,254,1) 100%);
+}
+
 `;
+
 
 const Icon = styled.i`
 color: lightgrey;
