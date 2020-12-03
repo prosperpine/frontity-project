@@ -8,6 +8,7 @@ import Om from "./om";
 import kabullight from "./kabullight.jpg";
 import { useTransition, animated } from "react-spring";
 import Nav from "./nav";
+import MobileMenu from "./menu";
 
 const Root = ({ state, actions }) => {
   const data = state.source.get(state.router.link);
@@ -53,6 +54,7 @@ const Root = ({ state, actions }) => {
                 <Link href="/om-mig/">Om mig</Link>
               </NavItem>
             </NavContainer>
+            <MobileMenu />
           </Menu>
           {/* </>
           ) : (<Button onClick={actions.theme.openMenu}>Menu</Button>

@@ -14,12 +14,16 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Start",
+              "Dikter",
               "/"
             ],
             [
               "Böcker",
               "/bocker/"
+            ],
+            [
+              "Om mig",
+              "/om-mig/"
             ],
 
           ],

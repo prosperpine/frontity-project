@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "bcea94c7b5efeb5154c0",
+  "hash": "947fc52bda9da0db9c71",
   "publicPath": "/static/",
   "outputPath": "/Users/josephine/Desktop/frontity-project/frontity-project/build/static",
   "assetsByChunkName": {
     "frontity-project": [
       "frontity-project.module.js",
-      "frontity-project.8d2dc4db89e541a56fbf.hot-update.js"
+      "frontity-project.2984121e1303298cbcce.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "8d2dc4db89e541a56fbf.hot-update.json",
+      "name": "2984121e1303298cbcce.hot-update.json",
       "size": 58,
       "chunks": [],
       "chunkNames": [],
@@ -24,8 +24,8 @@
       "emitted": false
     },
     {
-      "name": "frontity-project.8d2dc4db89e541a56fbf.hot-update.js",
-      "size": 15369,
+      "name": "frontity-project.2984121e1303298cbcce.hot-update.js",
+      "size": 27050,
       "chunks": [
         "frontity-project"
       ],
@@ -40,7 +40,7 @@
     },
     {
       "name": "frontity-project.module.js",
-      "size": 5468119,
+      "size": 5550441,
       "chunks": [
         "frontity-project"
       ],
@@ -68,7 +68,7 @@
       ],
       "assets": [
         "frontity-project.module.js",
-        "frontity-project.8d2dc4db89e541a56fbf.hot-update.js"
+        "frontity-project.2984121e1303298cbcce.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -81,7 +81,7 @@
       ],
       "assets": [
         "frontity-project.module.js",
-        "frontity-project.8d2dc4db89e541a56fbf.hot-update.js"
+        "frontity-project.2984121e1303298cbcce.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
