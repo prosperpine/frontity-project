@@ -7,13 +7,7 @@ import Bocker from "./bocker";
 import Om from "./om";
 import kabullight from "./kabullight.jpg";
 import { useTransition, animated } from "react-spring";
-
 import Nav from "./nav";
-
-
-
-
-
 
 const Root = ({ state, actions }) => {
   const data = state.source.get(state.router.link);
@@ -130,7 +124,6 @@ const Description = styled.h4`
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 50px;
   font-family: "Merriweather";
-
 `;
 
 const Menu = styled.nav`
@@ -145,21 +138,20 @@ justify - content: center;
 `;
 
 const Main = styled.main`
-display: flex;
-justify-content: center; 
-
+  display: flex;
+  justify-content: center; 
   background: rgb(249,253,254);
   background: linear-gradient(0deg, rgba(210,210,210,1)) 0%, rgba(249,253,254,1) 100%);
-
 `;
+
 const Button = styled.button`
-width: 92px;
-margin: 16px;
-padding: 8px 16px;
-border - radius: 8px;
-background: white;
-color: black;
-font - weight: bold;
+  width: 92px;
+  margin: 16px;
+  padding: 8px 16px;
+  border - radius: 8px;
+  background: white;
+  color: black;
+  font - weight: bold;
 `;
 
 //  ${props =>

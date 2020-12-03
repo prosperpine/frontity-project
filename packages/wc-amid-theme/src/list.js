@@ -2,16 +2,12 @@ import React from "react";
 import { connect, styled } from "frontity";
 import Link from "./link";
 import Item from "./List/list-item";
-
 import FeaturedMedia from "./featured-media";
-
 
 
 const List = ({ state }) => {
 
   const data = state.source.get(state.router.link);
-
-
 
   return (
     <Container>
@@ -36,8 +32,6 @@ const List = ({ state }) => {
           )
         })}
 
-
-
       </Items>
     </Container>
   );
@@ -54,11 +48,20 @@ const Items = styled.div`
 
 const Container = styled.section`
   font-family: 'Merriweather';
-  width: 800px;
   margin: 0;
   padding: 24px;
   list-style: none;
+  width: 90%;
+  @media(min-width: 668px) {
+    width: 90%
+  }
+  @media(min-width: 1024px){
+    width: 800px;
+  }
+
 `;
+
+
 const AuthorName = styled.span`
   color: rgba(12, 17, 43, 0.9);
   font-size: 0.9em;

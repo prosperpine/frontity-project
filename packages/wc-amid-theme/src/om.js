@@ -21,11 +21,18 @@ const Om = ({ state }) => {
 export default connect(Om);
 
 const Container = styled.div`
+font-family: 'Merriweather';
+margin: 0;
+padding: 24px;
+list-style: none;
+width: 90%;
+@media(min-width: 668px) {
+  width: 90%
+}
+@media(min-width: 1024px){
   width: 800px;
-  margin: 0;
-  padding: 24px;
-  background: rgb(249,253,254);
-  background: linear-gradient(0deg, rgba(210,210,210,1)) 0%, rgba(249,253,254,1) 100%);
+}
+
 `;
 const Title = styled.h2`
 font-family: 'Roboto';
