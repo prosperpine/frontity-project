@@ -50,9 +50,9 @@ const Root = ({ state, actions }) => {
               <NavItem>
                 <Link href="/bocker/">Böcker</Link>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Link href="/om-mig/">Om mig</Link>
-              </NavItem>
+              </NavItem> */}
             </NavContainer>
             <MobileMenu />
           </Menu>
