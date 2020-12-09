@@ -21,10 +21,6 @@ const settings = {
               "Böcker",
               "/bocker/"
             ],
-            [
-              "Om mig",
-              "/om-mig/"
-            ],
 
           ],
           "featured": {

@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "f6e6f464ccdc8ecde31c",
+  "publicPath": "/static/",
+  "outputPath": "/Users/josephine/Desktop/frontity-project/frontity-project/build/static",
+  "assetsByChunkName": {
+    "frontity-project": "frontity-project.module.js"
+  },
+  "assets": [
+    {
+      "name": "frontity-project.module.js",
+      "size": 5549972,
+      "chunks": [
+        "frontity-project"
+      ],
+      "chunkNames": [
+        "frontity-project"
+      ],
+      "info": {},
+      "emitted": true,
+      "isOverSizeLimit": true
+    },
+    {
+      "name": "images/kabullight.jpg",
+      "size": 310942,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-project": {
+      "chunks": [
+        "frontity-project"
+      ],
+      "assets": [
+        "frontity-project.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-project": {
+      "chunks": [
+        "frontity-project"
+      ],
+      "assets": [
+        "frontity-project.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
