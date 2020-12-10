@@ -3,7 +3,7 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://www.mohammadamid.a2hosted.com",
-      "title": "En plats för mina dikter.",
+      "title": "En plats för mina dikter",
       "description": "Dikter av Mohammad Amid Faqirzada"
     }
   },
