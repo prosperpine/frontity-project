@@ -32,6 +32,7 @@ const Item = ({ state, item }) => {
       {/* If the post has an excerpt (short summary text), we render it */}
       {item.excerpt && (
         <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
+
       )}
     </article>
   );
@@ -42,7 +43,7 @@ export default connect(Item);
 
 const Title = styled.h1`
   font-family: 'Roboto';
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: rgba(12, 17, 43);
   margin: 0;
   padding-top: 24px;
@@ -50,6 +51,10 @@ const Title = styled.h1`
   box-sizing: border-box;
   &:hover {
     color: grey;
+  }
+  @media(min-width: 668px) {
+    font-size: 2rem;
+
   }
 
 `;
